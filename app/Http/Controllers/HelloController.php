@@ -9,6 +9,6 @@ class HelloController extends Controller
   function index()
   {
     $name = "Tuan";
-    return view("hello", ['uname' => $name]);
+    return view("Hello", ['uname' => $name]);
   }
 }
