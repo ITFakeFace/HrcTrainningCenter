@@ -1,0 +1,19 @@
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a:visited, .navbar ul li a:active, .navbar ul li a:link{
+  text-decoration: none;
+  font-color: black;
+}
+
+.navbar hr{
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+

@@ -14,11 +14,5 @@ use App\Http\Controllers\HelloController;
 */
 
 Route::get('/', function () {
-  return view('welcome');
+  return view('index');
 });
-
-Route::get('/a', function () {
-  return view('abc');
-});
-
-Route::get('/hello', [HelloController::class, 'index']);
