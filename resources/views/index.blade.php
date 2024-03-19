@@ -72,6 +72,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit placeat fugit consectetur alias sint assumenda a quia laborum impedit deserunt pariatur eos dolores nesciunt, officia expedita cumque quidem maiores provident.
         </div>
     </div>
+    @include("layout.footer")
 </body>
 
 </html>
