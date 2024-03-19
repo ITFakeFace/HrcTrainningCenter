@@ -1,0 +1,34 @@
+.courseBlock{
+  background-color: rgb(234, 234, 234);
+  padding: 100px 200px 100px 200px;
+}
+
+.courseImage{
+  width:100%;
+  height: 300px;
+  background-color: white;
+}
+
+.courseTitle{
+  color:#0c213c;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.courseContent{
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.courseButton{
+  background-color: #0c213c;
+  color:white;
+  font-weight: bold;
+  font-size: 1.2em;
+  border: 1px blueviolet solid;
+  border-radius: 20px 20px 20px 20px;
+  padding:5px 30px 5px 30px;
+}
+

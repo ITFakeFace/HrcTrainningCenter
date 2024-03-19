@@ -9,9 +9,13 @@
 
 .navbar ul li {
   display: inline;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
   line-height: 51px;
+}
+
+.navbar ul li:hover {
+  
 }
 
 .navbar ul li a:visited, .navbar ul li a:active, .navbar ul li a:link, .navbar ul li, .nav-item div span{
@@ -46,6 +50,9 @@
 }
 
 /* Links inside the dropdown */
+.dropdown-nav-info-content div {
+  line-height: 25px;
+}
 .dropdown-nav-info-content div a {
   color: black;
   padding: 12px 16px;
@@ -57,7 +64,8 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-nav-info-content a:hover {
+.dropdown-nav-info-content div a:hover {
+  
   background-color: #ddd;
 }
 

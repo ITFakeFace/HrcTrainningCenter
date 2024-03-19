@@ -1,0 +1,11 @@
+.newCourseBlock{
+  background-color: white;
+  height: 1000px;
+}
+
+.newCourseTitle{
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  color: #0c213c;
+}
