@@ -1,0 +1,35 @@
+.row{
+  width: 100%;
+}
+.introBox{
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 60px 70px 40px 70px;
+}
+
+.introBoxContent{
+  display: block;
+}
+
+.achivementBox{
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 40px 70px 40px 70px;
+}
+
+.achivement{
+  margin-bottom: 50px;
+}
+
+.achiveTitle{
+  text-align: center;
+  font-size: 1.75em;
+  font-weight: bold;
+  color: #0c213c;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

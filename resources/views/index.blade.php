@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Trang chủ</title>
+    @include('layout.icon')
     @include('layout.include')
+    <link rel="stylesheet" href="/src/css/homepage.css">
     <link rel="stylesheet" href="/src/css/course.css">
     <link rel="stylesheet" href="/src/css/newCourse.css">
 </head>
@@ -66,13 +68,15 @@
             <a href="#"><button class="courseButton">Tìm hiểu thêm</button></a>
         </div>
     </div>
-    <div class="row newCourseBlock">
-        <div class="newCourseTitle">Các khóa học mới</div>
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit placeat fugit consectetur alias sint assumenda a quia laborum impedit deserunt pariatur eos dolores nesciunt, officia expedita cumque quidem maiores provident.
+    <div class="row newCourseBlock" style="padding:0px">
+        <div class="col-12">
+            <div class="newCourseTitle">Các khóa học mới</div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit placeat fugit consectetur alias sint assumenda a quia laborum impedit deserunt pariatur eos dolores nesciunt, officia expedita cumque quidem maiores provident.
+            </div>
         </div>
     </div>
-    @include("layout.footer")
+    @include('layout.footer')
 </body>
 
 </html>

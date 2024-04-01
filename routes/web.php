@@ -16,3 +16,11 @@ use App\Http\Controllers\HelloController;
 Route::get('/', function () {
   return view('index');
 });
+
+Route::get('/aboutHRC', function () {
+  return view('aboutHRC');
+});
+
+Route::get('/aboutCoaches', function () {
+  return view('aboutCoachesPage');
+});

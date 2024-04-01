@@ -28,6 +28,8 @@
 .contentBoxBlock{
   display: flex;
   justify-content: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .contentBoxBlock .contentBox{
@@ -48,4 +50,8 @@
 
 .contentBoxBlock .contentBox .content {
   font-size: 1.25em;
+}
+
+.row{
+  width: 100%;
 }
