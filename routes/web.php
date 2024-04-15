@@ -22,5 +22,9 @@ Route::get('/aboutHRC', function () {
 });
 
 Route::get('/aboutCoaches', function () {
-  return view('aboutCoachesPage');
+  return view('aboutCoaches');
+});
+
+Route::get('/courses', function () {
+  return view('course');
 });

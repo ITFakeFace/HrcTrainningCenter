@@ -46,7 +46,7 @@
   width: max-content;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   text-align: left;
-  z-index: 1;
+  z-index: 10;
 }
 
 /* Links inside the dropdown */
@@ -75,4 +75,14 @@
 /* Show the dropdown menu on hover */
 .dropdown-nav-info:hover .dropdown-nav-info-content {
   display: block;
+}
+
+.nav-item:hover{
+  transition: transform .3s linear, color .3s linear;
+  transform: scale(1.1,1.1);
+  color: #E52733;
+}
+
+.navbar hr{
+  z-index: 5;
 }

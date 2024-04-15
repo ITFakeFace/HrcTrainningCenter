@@ -14,12 +14,12 @@
                         <a href="/aboutCoaches">Giảng viên</a>
                     </div>
                     <div>
-                        <a href="#">Các khóa học</a>
+                        <a href="/courses">Các khóa học</a>
                     </div>
                 </div>
             </div>
         </li>
-        <li class="nav-item"><a href="">KHÓA HỌC</a></li>
+        <li class="nav-item"><a href="/courses">KHÓA HỌC</a></li>
         <li class="nav-item"><a href="">CHÍNH SÁCH GIÁ</a></li>
     </ul>
     <hr>
